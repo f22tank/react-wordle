@@ -44,7 +44,7 @@ version: "2.4"
 services:
 
   wordle:
-    image: modem7/wordle:latest
+    image: f22tank/wordle:latest
     container_name: Wordle
     ports:
       - 80:8080
@@ -58,7 +58,7 @@ version: "2.4"
 services:
 
   wordle:
-    image: modem7/wordle:legacy
+    image: f22tank/wordle:legacy
     container_name: Wordle
     ports:
       - 80:80
